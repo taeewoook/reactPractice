@@ -1,0 +1,40 @@
+.hello {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.helloTop {
+  width: 30%;
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.helloBottom {
+  display: flex;
+  flex-direction: column;
+  height: 30%;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.hello .helloTop h1 {
+  font-weight: bolder;
+  font-size: 70px;
+  color: black;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  z-index: 1;
+}

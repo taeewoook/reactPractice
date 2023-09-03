@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  align-items: center; /* 수직 정렬 */
+  height: 90vh;
+}
+
+.aboutTop {
+  background-image: url("../assets/introiu.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%; /* 좌우 너비 조절 */
+  height: 100%;
+  background-size: 60% auto;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.aboutBottom p {
+  width: 90%;
+  line-height: 2;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 70px;
+  color: rgb(55, 144, 246);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+  font-weight: bolder;
+  margin-top: 0px;
+}
